@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6CDB8825A2F9AF0070293B /* OwnerHomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CDB8725A2F9AF0070293B /* OwnerHomepageViewController.swift */; };
+		2F6CDB8A25A430190070293B /* Approval ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CDB8925A430190070293B /* Approval ReservationViewController.swift */; };
+		2F6CDB8C25A6322A0070293B /* SignoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CDB8B25A6322A0070293B /* SignoutViewController.swift */; };
+		2F6CDB8E25AC3A540070293B /* CustomerOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CDB8D25AC3A530070293B /* CustomerOB.swift */; };
+		2F6CDB9025AE88790070293B /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CDB8F25AE88790070293B /* CartTableViewCell.swift */; };
+		2F70C4AD2540C5B800001735 /* OwnerSginUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4AC2540C5B800001735 /* OwnerSginUpViewController.swift */; };
+		2F70C4AF2540D48300001735 /* CustomerSginUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4AE2540D48300001735 /* CustomerSginUpViewController.swift */; };
+		2F70C4B1254358BC00001735 /* AddServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4B0254358BC00001735 /* AddServiceViewController.swift */; };
+		2F70C4B325436C7A00001735 /* AdminEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4B225436C7A00001735 /* AdminEditProfileViewController.swift */; };
+		2F70C4B5254375A800001735 /* LoginCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4B4254375A800001735 /* LoginCustomerViewController.swift */; };
+		2F70C4B725437E3800001735 /* LoginOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4B625437E3800001735 /* LoginOwnerViewController.swift */; };
+		2F70C4B92544749100001735 /* SalonAcceptenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4B82544749100001735 /* SalonAcceptenceViewController.swift */; };
+		2F70C4BB2544771500001735 /* SalonAccepteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4BA2544771500001735 /* SalonAccepteTableViewCell.swift */; };
+		2F70C4BD25447E2B00001735 /* OwnerOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4BC25447E2B00001735 /* OwnerOB.swift */; };
+		2F70C4BF2548C4F400001735 /* AdvertismentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C4BE2548C4F400001735 /* AdvertismentViewController.swift */; };
+		2F70C52A2552713500001735 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C5292552713500001735 /* OffersViewController.swift */; };
+		2F70C52C2559590B00001735 /* SalonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C52B2559590B00001735 /* SalonListViewController.swift */; };
+		2F70C52E25595A6400001735 /* SalonListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C52D25595A6400001735 /* SalonListTableViewCell.swift */; };
+		2F70C530255B27D100001735 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C52F255B27D100001735 /* TopViewController.swift */; };
+		2F70C532255D38BF00001735 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C531255D38BE00001735 /* LoginViewController.swift */; };
+		2F70C5342568F6D400001735 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C5332568F6D400001735 /* HomePageViewController.swift */; };
+		2F70C5362569506600001735 /* sideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C5352569506600001735 /* sideMenu.swift */; };
+		2F70C5382569515000001735 /* CustomerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C5372569515000001735 /* CustomerProfileViewController.swift */; };
+		2F70C53A2577708A00001735 /* AdvHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C5392577708A00001735 /* AdvHomeCollectionViewCell.swift */; };
+		2F70C53C257ABEDE00001735 /* SalonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C53B257ABEDE00001735 /* SalonViewController.swift */; };
+		2F70C53E257AC1BF00001735 /* SalonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C53D257AC1BF00001735 /* SalonCollectionViewCell.swift */; };
+		2F70C540257BA74C00001735 /* AcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C53F257BA74C00001735 /* AcceptViewController.swift */; };
+		2F70C542257BA79200001735 /* RejectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C541257BA79200001735 /* RejectViewController.swift */; };
+		2F70C544257BAA6500001735 /* AcceptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C543257BAA6500001735 /* AcceptTableViewCell.swift */; };
+		2F70C546257BAAC100001735 /* RejectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C545257BAAC100001735 /* RejectTableViewCell.swift */; };
+		2F70C548257C260900001735 /* SelectSalonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C547257C260900001735 /* SelectSalonViewController.swift */; };
+		2F70C54A257C311800001735 /* ServicechooseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C549257C311800001735 /* ServicechooseTableViewCell.swift */; };
+		2F70C54C257C32C900001735 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C54B257C32C900001735 /* File.swift */; };
+		2F70C54E257C32E900001735 /* ServiceOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C54D257C32E900001735 /* ServiceOB.swift */; };
+		2F70C550257C369600001735 /* SelectServiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C54F257C369600001735 /* SelectServiveViewController.swift */; };
+		2F70C552257CA1A500001735 /* AddtoCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C551257CA1A500001735 /* AddtoCartViewController.swift */; };
+		2F70C554257EA39800001735 /* ListServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C553257EA39800001735 /* ListServicesViewController.swift */; };
+		2F70C556257EA57200001735 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C555257EA57200001735 /* ServicesTableViewCell.swift */; };
+		2F70C55A258F50CC00001735 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C559258F50CC00001735 /* SWRevealViewController.m */; };
+		2F70C55C258F54CB00001735 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C55B258F54CB00001735 /* SideMenuViewController.swift */; };
+		2F70C55E258F566400001735 /* CustomerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C55D258F566400001735 /* CustomerHomePageViewController.swift */; };
+		2F70C5602599AE0100001735 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C55F2599AE0100001735 /* ReservationViewController.swift */; };
+		2F70C5622599C63E00001735 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70C5612599C63E00001735 /* ReservationTableViewCell.swift */; };
+		2FAF7102252273EF0091064B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF7101252273EF0091064B /* AppDelegate.swift */; };
+		2FAF7104252273EF0091064B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF7103252273EF0091064B /* ViewController.swift */; };
+		2FAF7107252273EF0091064B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF7105252273EF0091064B /* Main.storyboard */; };
+		2FAF710A252273EF0091064B /* MyBeauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF7108252273EF0091064B /* MyBeauty.xcdatamodeld */; };
+		2FAF710C252273F40091064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF710B252273F40091064B /* Assets.xcassets */; };
+		2FAF710F252273F40091064B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF710D252273F40091064B /* LaunchScreen.storyboard */; };
+		2FAF711A252273F50091064B /* MyBeautyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF7119252273F50091064B /* MyBeautyTests.swift */; };
+		2FAF7125252273F50091064B /* MyBeautyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF7124252273F50091064B /* MyBeautyUITests.swift */; };
+		2FBDE166259C82BB00C5E349 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE165259C82BB00C5E349 /* CartViewController.swift */; };
+		2FC0F41B2538E52A00F07517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0F41A2538E52900F07517 /* GoogleService-Info.plist */; };
+		2FC0F423253B7E7A00F07517 /* aaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0F422253B7E7A00F07517 /* aaViewController.swift */; };
+		36C74E36D973102282C663AF /* Pods_MyBeautyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF00BB013D3B6599B920DC18 /* Pods_MyBeautyTests.framework */; };
+		72BD3A9CC6C28AE74AB9D7D5 /* Pods_MyBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32932875DEEFDF5F775AE41D /* Pods_MyBeauty.framework */; };
+		CB3F376E90D736E4B01D747B /* Pods_MyBeauty_MyBeautyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45226F31A2BD057380085EDE /* Pods_MyBeauty_MyBeautyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FAF7116252273F50091064B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FAF70F6252273EF0091064B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FAF70FD252273EF0091064B;
+			remoteInfo = MyBeauty;
+		};
+		2FAF7121252273F50091064B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FAF70F6252273EF0091064B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FAF70FD252273EF0091064B;
+			remoteInfo = MyBeauty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054F9A41F1BA8A644715DBCE /* Pods-MyBeauty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBeauty.release.xcconfig"; path = "Target Support Files/Pods-MyBeauty/Pods-MyBeauty.release.xcconfig"; sourceTree = "<group>"; };
+		2DE00C88CCCAC61A0960EC4D /* Pods-MyBeautyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBeautyTests.release.xcconfig"; path = "Target Support Files/Pods-MyBeautyTests/Pods-MyBeautyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F6CDB8725A2F9AF0070293B /* OwnerHomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerHomepageViewController.swift; sourceTree = "<group>"; };
+		2F6CDB8925A430190070293B /* Approval ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Approval ReservationViewController.swift"; sourceTree = "<group>"; };
+		2F6CDB8B25A6322A0070293B /* SignoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignoutViewController.swift; sourceTree = "<group>"; };
+		2F6CDB8D25AC3A530070293B /* CustomerOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOB.swift; sourceTree = "<group>"; };
+		2F6CDB8F25AE88790070293B /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C4AC2540C5B800001735 /* OwnerSginUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerSginUpViewController.swift; sourceTree = "<group>"; };
+		2F70C4AE2540D48300001735 /* CustomerSginUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSginUpViewController.swift; sourceTree = "<group>"; };
+		2F70C4B0254358BC00001735 /* AddServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceViewController.swift; sourceTree = "<group>"; };
+		2F70C4B225436C7A00001735 /* AdminEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminEditProfileViewController.swift; sourceTree = "<group>"; };
+		2F70C4B4254375A800001735 /* LoginCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCustomerViewController.swift; sourceTree = "<group>"; };
+		2F70C4B625437E3800001735 /* LoginOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOwnerViewController.swift; sourceTree = "<group>"; };
+		2F70C4B82544749100001735 /* SalonAcceptenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonAcceptenceViewController.swift; sourceTree = "<group>"; };
+		2F70C4BA2544771500001735 /* SalonAccepteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonAccepteTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C4BC25447E2B00001735 /* OwnerOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerOB.swift; sourceTree = "<group>"; };
+		2F70C4BE2548C4F400001735 /* AdvertismentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertismentViewController.swift; sourceTree = "<group>"; };
+		2F70C5292552713500001735 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		2F70C52B2559590B00001735 /* SalonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListViewController.swift; sourceTree = "<group>"; };
+		2F70C52D25595A6400001735 /* SalonListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C52F255B27D100001735 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		2F70C531255D38BE00001735 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2F70C5332568F6D400001735 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2F70C5352569506600001735 /* sideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenu.swift; sourceTree = "<group>"; };
+		2F70C5372569515000001735 /* CustomerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileViewController.swift; sourceTree = "<group>"; };
+		2F70C5392577708A00001735 /* AdvHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F70C53B257ABEDE00001735 /* SalonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonViewController.swift; sourceTree = "<group>"; };
+		2F70C53D257AC1BF00001735 /* SalonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F70C53F257BA74C00001735 /* AcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptViewController.swift; sourceTree = "<group>"; };
+		2F70C541257BA79200001735 /* RejectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectViewController.swift; sourceTree = "<group>"; };
+		2F70C543257BAA6500001735 /* AcceptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C545257BAAC100001735 /* RejectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C547257C260900001735 /* SelectSalonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSalonViewController.swift; sourceTree = "<group>"; };
+		2F70C549257C311800001735 /* ServicechooseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicechooseTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C54B257C32C900001735 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2F70C54D257C32E900001735 /* ServiceOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOB.swift; sourceTree = "<group>"; };
+		2F70C54F257C369600001735 /* SelectServiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServiveViewController.swift; sourceTree = "<group>"; };
+		2F70C551257CA1A500001735 /* AddtoCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddtoCartViewController.swift; sourceTree = "<group>"; };
+		2F70C553257EA39800001735 /* ListServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListServicesViewController.swift; sourceTree = "<group>"; };
+		2F70C555257EA57200001735 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		2F70C557258F50C900001735 /* MyBeauty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyBeauty-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F70C558258F50CB00001735 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2F70C559258F50CC00001735 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2F70C55B258F54CB00001735 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		2F70C55D258F566400001735 /* CustomerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomePageViewController.swift; sourceTree = "<group>"; };
+		2F70C55F2599AE0100001735 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		2F70C5612599C63E00001735 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		2FAF70FE252273EF0091064B /* MyBeauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBeauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAF7101252273EF0091064B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FAF7103252273EF0091064B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FAF7106252273EF0091064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FAF7109252273EF0091064B /* MyBeauty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyBeauty.xcdatamodel; sourceTree = "<group>"; };
+		2FAF710B252273F40091064B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FAF710E252273F40091064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FAF7110252273F40091064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FAF7115252273F50091064B /* MyBeautyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBeautyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAF7119252273F50091064B /* MyBeautyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBeautyTests.swift; sourceTree = "<group>"; };
+		2FAF711B252273F50091064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FAF7120252273F50091064B /* MyBeautyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBeautyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAF7124252273F50091064B /* MyBeautyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBeautyUITests.swift; sourceTree = "<group>"; };
+		2FAF7126252273F50091064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBDE165259C82BB00C5E349 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		2FC0F41A2538E52900F07517 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FC0F422253B7E7A00F07517 /* aaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaViewController.swift; sourceTree = "<group>"; };
+		32932875DEEFDF5F775AE41D /* Pods_MyBeauty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBeauty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45226F31A2BD057380085EDE /* Pods_MyBeauty_MyBeautyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBeauty_MyBeautyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4562399577464F608DA7F2F8 /* Pods-MyBeauty-MyBeautyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBeauty-MyBeautyUITests.release.xcconfig"; path = "Target Support Files/Pods-MyBeauty-MyBeautyUITests/Pods-MyBeauty-MyBeautyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		840AF9614BBC5C1087789032 /* Pods-MyBeauty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBeauty.debug.xcconfig"; path = "Target Support Files/Pods-MyBeauty/Pods-MyBeauty.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E2C0BBA274AB4097E8ED52 /* Pods-MyBeauty-MyBeautyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBeauty-MyBeautyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyBeauty-MyBeautyUITests/Pods-MyBeauty-MyBeautyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC98D5E0D1E4DE9EA11FD34C /* Pods-MyBeautyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBeautyTests.debug.xcconfig"; path = "Target Support Files/Pods-MyBeautyTests/Pods-MyBeautyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF00BB013D3B6599B920DC18 /* Pods_MyBeautyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBeautyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FAF70FB252273EF0091064B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BD3A9CC6C28AE74AB9D7D5 /* Pods_MyBeauty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAF7112252273F50091064B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C74E36D973102282C663AF /* Pods_MyBeautyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAF711D252273F50091064B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3F376E90D736E4B01D747B /* Pods_MyBeauty_MyBeautyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E94EA06603239C5AD39E8F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				840AF9614BBC5C1087789032 /* Pods-MyBeauty.debug.xcconfig */,
+				054F9A41F1BA8A644715DBCE /* Pods-MyBeauty.release.xcconfig */,
+				A1E2C0BBA274AB4097E8ED52 /* Pods-MyBeauty-MyBeautyUITests.debug.xcconfig */,
+				4562399577464F608DA7F2F8 /* Pods-MyBeauty-MyBeautyUITests.release.xcconfig */,
+				DC98D5E0D1E4DE9EA11FD34C /* Pods-MyBeautyTests.debug.xcconfig */,
+				2DE00C88CCCAC61A0960EC4D /* Pods-MyBeautyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2FAF70F5252273EF0091064B = {
+			isa = PBXGroup;
+			children = (
+				2F6CDB8925A430190070293B /* Approval ReservationViewController.swift */,
+				2FAF7100252273EF0091064B /* MyBeauty */,
+				2FAF7118252273F50091064B /* MyBeautyTests */,
+				2FAF7123252273F50091064B /* MyBeautyUITests */,
+				2FAF70FF252273EF0091064B /* Products */,
+				1E94EA06603239C5AD39E8F8 /* Pods */,
+				E8AD56E2EB66371D6253AF6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FAF70FF252273EF0091064B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FAF70FE252273EF0091064B /* MyBeauty.app */,
+				2FAF7115252273F50091064B /* MyBeautyTests.xctest */,
+				2FAF7120252273F50091064B /* MyBeautyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FAF7100252273EF0091064B /* MyBeauty */ = {
+			isa = PBXGroup;
+			children = (
+				2FAF7101252273EF0091064B /* AppDelegate.swift */,
+				2FAF7103252273EF0091064B /* ViewController.swift */,
+				2FC0F41A2538E52900F07517 /* GoogleService-Info.plist */,
+				2F70C558258F50CB00001735 /* SWRevealViewController.h */,
+				2F70C559258F50CC00001735 /* SWRevealViewController.m */,
+				2FAF7105252273EF0091064B /* Main.storyboard */,
+				2F6CDB8725A2F9AF0070293B /* OwnerHomepageViewController.swift */,
+				2F70C5612599C63E00001735 /* ReservationTableViewCell.swift */,
+				2F70C55F2599AE0100001735 /* ReservationViewController.swift */,
+				2F70C55D258F566400001735 /* CustomerHomePageViewController.swift */,
+				2F70C55B258F54CB00001735 /* SideMenuViewController.swift */,
+				2F70C553257EA39800001735 /* ListServicesViewController.swift */,
+				2F70C555257EA57200001735 /* ServicesTableViewCell.swift */,
+				2F70C551257CA1A500001735 /* AddtoCartViewController.swift */,
+				2FBDE165259C82BB00C5E349 /* CartViewController.swift */,
+				2F6CDB8F25AE88790070293B /* CartTableViewCell.swift */,
+				2F70C54F257C369600001735 /* SelectServiveViewController.swift */,
+				2F70C549257C311800001735 /* ServicechooseTableViewCell.swift */,
+				2F70C545257BAAC100001735 /* RejectTableViewCell.swift */,
+				2F70C541257BA79200001735 /* RejectViewController.swift */,
+				2F70C53F257BA74C00001735 /* AcceptViewController.swift */,
+				2F70C543257BAA6500001735 /* AcceptTableViewCell.swift */,
+				2F70C5392577708A00001735 /* AdvHomeCollectionViewCell.swift */,
+				2F70C5372569515000001735 /* CustomerProfileViewController.swift */,
+				2F70C5332568F6D400001735 /* HomePageViewController.swift */,
+				2F70C5352569506600001735 /* sideMenu.swift */,
+				2F70C52F255B27D100001735 /* TopViewController.swift */,
+				2F70C5292552713500001735 /* OffersViewController.swift */,
+				2F70C4B82544749100001735 /* SalonAcceptenceViewController.swift */,
+				2F70C4BA2544771500001735 /* SalonAccepteTableViewCell.swift */,
+				2F70C52B2559590B00001735 /* SalonListViewController.swift */,
+				2F70C52D25595A6400001735 /* SalonListTableViewCell.swift */,
+				2F70C547257C260900001735 /* SelectSalonViewController.swift */,
+				2F70C53B257ABEDE00001735 /* SalonViewController.swift */,
+				2F70C53D257AC1BF00001735 /* SalonCollectionViewCell.swift */,
+				2F70C531255D38BE00001735 /* LoginViewController.swift */,
+				2F70C4BC25447E2B00001735 /* OwnerOB.swift */,
+				2F6CDB8D25AC3A530070293B /* CustomerOB.swift */,
+				2F70C4B4254375A800001735 /* LoginCustomerViewController.swift */,
+				2F70C4B625437E3800001735 /* LoginOwnerViewController.swift */,
+				2F70C4B0254358BC00001735 /* AddServiceViewController.swift */,
+				2F70C4B225436C7A00001735 /* AdminEditProfileViewController.swift */,
+				2F70C4AE2540D48300001735 /* CustomerSginUpViewController.swift */,
+				2F6CDB8B25A6322A0070293B /* SignoutViewController.swift */,
+				2F70C4AC2540C5B800001735 /* OwnerSginUpViewController.swift */,
+				2F70C4BE2548C4F400001735 /* AdvertismentViewController.swift */,
+				2FAF710B252273F40091064B /* Assets.xcassets */,
+				2FAF710D252273F40091064B /* LaunchScreen.storyboard */,
+				2FC0F422253B7E7A00F07517 /* aaViewController.swift */,
+				2FAF7110252273F40091064B /* Info.plist */,
+				2FAF7108252273EF0091064B /* MyBeauty.xcdatamodeld */,
+				2F70C54B257C32C900001735 /* File.swift */,
+				2F70C54D257C32E900001735 /* ServiceOB.swift */,
+				2F70C557258F50C900001735 /* MyBeauty-Bridging-Header.h */,
+			);
+			path = MyBeauty;
+			sourceTree = "<group>";
+		};
+		2FAF7118252273F50091064B /* MyBeautyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FAF7119252273F50091064B /* MyBeautyTests.swift */,
+				2FAF711B252273F50091064B /* Info.plist */,
+			);
+			path = MyBeautyTests;
+			sourceTree = "<group>";
+		};
+		2FAF7123252273F50091064B /* MyBeautyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FAF7124252273F50091064B /* MyBeautyUITests.swift */,
+				2FAF7126252273F50091064B /* Info.plist */,
+			);
+			path = MyBeautyUITests;
+			sourceTree = "<group>";
+		};
+		E8AD56E2EB66371D6253AF6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32932875DEEFDF5F775AE41D /* Pods_MyBeauty.framework */,
+				45226F31A2BD057380085EDE /* Pods_MyBeauty_MyBeautyUITests.framework */,
+				FF00BB013D3B6599B920DC18 /* Pods_MyBeautyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FAF70FD252273EF0091064B /* MyBeauty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FAF7129252273F50091064B /* Build configuration list for PBXNativeTarget "MyBeauty" */;
+			buildPhases = (
+				EA3938775221FEAE42DBF0AF /* [CP] Check Pods Manifest.lock */,
+				2FAF70FA252273EF0091064B /* Sources */,
+				2FAF70FB252273EF0091064B /* Frameworks */,
+				2FAF70FC252273EF0091064B /* Resources */,
+				638CC3400E1BD09FA40CE594 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBeauty;
+			productName = MyBeauty;
+			productReference = 2FAF70FE252273EF0091064B /* MyBeauty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FAF7114252273F50091064B /* MyBeautyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FAF712C252273F50091064B /* Build configuration list for PBXNativeTarget "MyBeautyTests" */;
+			buildPhases = (
+				11FE4EEDD283C781DC13D419 /* [CP] Check Pods Manifest.lock */,
+				2FAF7111252273F50091064B /* Sources */,
+				2FAF7112252273F50091064B /* Frameworks */,
+				2FAF7113252273F50091064B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FAF7117252273F50091064B /* PBXTargetDependency */,
+			);
+			name = MyBeautyTests;
+			productName = MyBeautyTests;
+			productReference = 2FAF7115252273F50091064B /* MyBeautyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FAF711F252273F50091064B /* MyBeautyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FAF712F252273F50091064B /* Build configuration list for PBXNativeTarget "MyBeautyUITests" */;
+			buildPhases = (
+				E1284AD9455BC3B314FBA65C /* [CP] Check Pods Manifest.lock */,
+				2FAF711C252273F50091064B /* Sources */,
+				2FAF711D252273F50091064B /* Frameworks */,
+				2FAF711E252273F50091064B /* Resources */,
+				F6A0D6F5EC39C142A85A4841 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FAF7122252273F50091064B /* PBXTargetDependency */,
+			);
+			name = MyBeautyUITests;
+			productName = MyBeautyUITests;
+			productReference = 2FAF7120252273F50091064B /* MyBeautyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FAF70F6252273EF0091064B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = OJP12;
+				TargetAttributes = {
+					2FAF70FD252273EF0091064B = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1170;
+					};
+					2FAF7114252273F50091064B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2FAF70FD252273EF0091064B;
+					};
+					2FAF711F252273F50091064B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2FAF70FD252273EF0091064B;
+					};
+				};
+			};
+			buildConfigurationList = 2FAF70F9252273EF0091064B /* Build configuration list for PBXProject "MyBeauty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FAF70F5252273EF0091064B;
+			productRefGroup = 2FAF70FF252273EF0091064B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FAF70FD252273EF0091064B /* MyBeauty */,
+				2FAF7114252273F50091064B /* MyBeautyTests */,
+				2FAF711F252273F50091064B /* MyBeautyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FAF70FC252273EF0091064B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAF710F252273F40091064B /* LaunchScreen.storyboard in Resources */,
+				2FC0F41B2538E52A00F07517 /* GoogleService-Info.plist in Resources */,
+				2FAF710C252273F40091064B /* Assets.xcassets in Resources */,
+				2FAF7107252273EF0091064B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAF7113252273F50091064B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAF711E252273F50091064B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FE4EEDD283C781DC13D419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBeautyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638CC3400E1BD09FA40CE594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBeauty/Pods-MyBeauty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBeauty/Pods-MyBeauty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBeauty/Pods-MyBeauty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1284AD9455BC3B314FBA65C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBeauty-MyBeautyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3938775221FEAE42DBF0AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBeauty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A0D6F5EC39C142A85A4841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBeauty-MyBeautyUITests/Pods-MyBeauty-MyBeautyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBeauty-MyBeautyUITests/Pods-MyBeauty-MyBeautyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBeauty-MyBeautyUITests/Pods-MyBeauty-MyBeautyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FAF70FA252273EF0091064B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F70C5382569515000001735 /* CustomerProfileViewController.swift in Sources */,
+				2F70C55A258F50CC00001735 /* SWRevealViewController.m in Sources */,
+				2F6CDB8E25AC3A540070293B /* CustomerOB.swift in Sources */,
+				2F70C52C2559590B00001735 /* SalonListViewController.swift in Sources */,
+				2F70C53E257AC1BF00001735 /* SalonCollectionViewCell.swift in Sources */,
+				2F70C4AD2540C5B800001735 /* OwnerSginUpViewController.swift in Sources */,
+				2F70C52E25595A6400001735 /* SalonListTableViewCell.swift in Sources */,
+				2F70C54C257C32C900001735 /* File.swift in Sources */,
+				2F70C542257BA79200001735 /* RejectViewController.swift in Sources */,
+				2F70C4B5254375A800001735 /* LoginCustomerViewController.swift in Sources */,
+				2F70C532255D38BF00001735 /* LoginViewController.swift in Sources */,
+				2F70C4B1254358BC00001735 /* AddServiceViewController.swift in Sources */,
+				2FAF7104252273EF0091064B /* ViewController.swift in Sources */,
+				2F6CDB8825A2F9AF0070293B /* OwnerHomepageViewController.swift in Sources */,
+				2F70C53C257ABEDE00001735 /* SalonViewController.swift in Sources */,
+				2F6CDB9025AE88790070293B /* CartTableViewCell.swift in Sources */,
+				2F70C554257EA39800001735 /* ListServicesViewController.swift in Sources */,
+				2F70C5622599C63E00001735 /* ReservationTableViewCell.swift in Sources */,
+				2FBDE166259C82BB00C5E349 /* CartViewController.swift in Sources */,
+				2F70C544257BAA6500001735 /* AcceptTableViewCell.swift in Sources */,
+				2F70C5602599AE0100001735 /* ReservationViewController.swift in Sources */,
+				2F70C548257C260900001735 /* SelectSalonViewController.swift in Sources */,
+				2F70C55C258F54CB00001735 /* SideMenuViewController.swift in Sources */,
+				2F70C530255B27D100001735 /* TopViewController.swift in Sources */,
+				2F70C5342568F6D400001735 /* HomePageViewController.swift in Sources */,
+				2F70C52A2552713500001735 /* OffersViewController.swift in Sources */,
+				2F70C4AF2540D48300001735 /* CustomerSginUpViewController.swift in Sources */,
+				2F70C552257CA1A500001735 /* AddtoCartViewController.swift in Sources */,
+				2F70C546257BAAC100001735 /* RejectTableViewCell.swift in Sources */,
+				2F70C540257BA74C00001735 /* AcceptViewController.swift in Sources */,
+				2F70C5362569506600001735 /* sideMenu.swift in Sources */,
+				2FAF710A252273EF0091064B /* MyBeauty.xcdatamodeld in Sources */,
+				2F70C53A2577708A00001735 /* AdvHomeCollectionViewCell.swift in Sources */,
+				2F70C4BF2548C4F400001735 /* AdvertismentViewController.swift in Sources */,
+				2F70C556257EA57200001735 /* ServicesTableViewCell.swift in Sources */,
+				2F70C4B92544749100001735 /* SalonAcceptenceViewController.swift in Sources */,
+				2F70C550257C369600001735 /* SelectServiveViewController.swift in Sources */,
+				2F70C4B725437E3800001735 /* LoginOwnerViewController.swift in Sources */,
+				2F6CDB8C25A6322A0070293B /* SignoutViewController.swift in Sources */,
+				2F70C54E257C32E900001735 /* ServiceOB.swift in Sources */,
+				2F70C4BD25447E2B00001735 /* OwnerOB.swift in Sources */,
+				2F6CDB8A25A430190070293B /* Approval ReservationViewController.swift in Sources */,
+				2F70C54A257C311800001735 /* ServicechooseTableViewCell.swift in Sources */,
+				2FC0F423253B7E7A00F07517 /* aaViewController.swift in Sources */,
+				2F70C4B325436C7A00001735 /* AdminEditProfileViewController.swift in Sources */,
+				2FAF7102252273EF0091064B /* AppDelegate.swift in Sources */,
+				2F70C55E258F566400001735 /* CustomerHomePageViewController.swift in Sources */,
+				2F70C4BB2544771500001735 /* SalonAccepteTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAF7111252273F50091064B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAF711A252273F50091064B /* MyBeautyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAF711C252273F50091064B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAF7125252273F50091064B /* MyBeautyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FAF7117252273F50091064B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FAF70FD252273EF0091064B /* MyBeauty */;
+			targetProxy = 2FAF7116252273F50091064B /* PBXContainerItemProxy */;
+		};
+		2FAF7122252273F50091064B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FAF70FD252273EF0091064B /* MyBeauty */;
+			targetProxy = 2FAF7121252273F50091064B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FAF7105252273EF0091064B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FAF7106252273EF0091064B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FAF710D252273F40091064B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FAF710E252273F40091064B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FAF7127252273F50091064B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FAF7128252273F50091064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FAF712A252273F50091064B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840AF9614BBC5C1087789032 /* Pods-MyBeauty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBeauty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtc.MyBeauty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyBeauty/MyBeauty-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FAF712B252273F50091064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054F9A41F1BA8A644715DBCE /* Pods-MyBeauty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBeauty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtc.MyBeauty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyBeauty/MyBeauty-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FAF712D252273F50091064B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC98D5E0D1E4DE9EA11FD34C /* Pods-MyBeautyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBeautyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtc.MyBeautyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBeauty.app/MyBeauty";
+			};
+			name = Debug;
+		};
+		2FAF712E252273F50091064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE00C88CCCAC61A0960EC4D /* Pods-MyBeautyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBeautyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtc.MyBeautyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBeauty.app/MyBeauty";
+			};
+			name = Release;
+		};
+		2FAF7130252273F50091064B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E2C0BBA274AB4097E8ED52 /* Pods-MyBeauty-MyBeautyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBeautyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtc.MyBeautyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBeauty;
+			};
+			name = Debug;
+		};
+		2FAF7131252273F50091064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4562399577464F608DA7F2F8 /* Pods-MyBeauty-MyBeautyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBeautyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtc.MyBeautyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBeauty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FAF70F9252273EF0091064B /* Build configuration list for PBXProject "MyBeauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAF7127252273F50091064B /* Debug */,
+				2FAF7128252273F50091064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FAF7129252273F50091064B /* Build configuration list for PBXNativeTarget "MyBeauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAF712A252273F50091064B /* Debug */,
+				2FAF712B252273F50091064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FAF712C252273F50091064B /* Build configuration list for PBXNativeTarget "MyBeautyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAF712D252273F50091064B /* Debug */,
+				2FAF712E252273F50091064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FAF712F252273F50091064B /* Build configuration list for PBXNativeTarget "MyBeautyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAF7130252273F50091064B /* Debug */,
+				2FAF7131252273F50091064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FAF7108252273EF0091064B /* MyBeauty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FAF7109252273EF0091064B /* MyBeauty.xcdatamodel */,
+			);
+			currentVersion = 2FAF7109252273EF0091064B /* MyBeauty.xcdatamodel */;
+			path = MyBeauty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FAF70F6252273EF0091064B /* Project object */;
+}

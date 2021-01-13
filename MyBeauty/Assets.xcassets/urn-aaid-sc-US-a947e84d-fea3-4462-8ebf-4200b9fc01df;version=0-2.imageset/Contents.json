@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "urn-aaid-sc-US-a947e84d-fea3-4462-8ebf-4200b9fc01df;version=0-2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_MyBeautyTests {
+  umbrella header "Pods-MyBeautyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
